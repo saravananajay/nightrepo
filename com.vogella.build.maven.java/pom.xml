@@ -23,9 +23,9 @@
 
                     </repository>
                     <snapshotRepository>
-                                <id>maven-snapshots</id>
-                                            <name>maven-snapshots</name>
-                                                         <url>http://192.168.43.155:8081/repository/maven-snapshots/</url>
+                                <id>saravanan</id>
+                                            <name>saravanan</name>
+                                                         <url>http://192.168.43.155:8081/repository/saravanan/</url>
                                                                       </snapshotRepository>
 
 </distributionManagement>
