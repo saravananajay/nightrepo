@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.vogella.build.maven.java</groupId>
   <artifactId>com.vogella.build.maven.java</artifactId>
-  <packaging>war</packaging>
+  <packaging>jar</packaging>
   <version>3.0-SNAPSHOT</version>
   <name>com.vogella.build.maven.java</name>
   <url>http://maven.apache.org</url>
