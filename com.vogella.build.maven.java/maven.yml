@@ -1,0 +1,11 @@
+- name: Git pull maven compile tomcat deploy
+  hosts: controller 
+  become: yes
+  become_method: sudo
+  vars:
+     remote_jarfile: /var/lib/jenkins/workspace/myfirst_maven_project/nightrepo/com.vogella.build.maven.java/target/com.vogella.build.maven.java-3.0-SNAPSHOT.jar
+    
+  tasks:
+   
+    - name: maven clean package
+      command: /opt/apache-maven-3.5.3/bin/mvn -f /var/lib/jenkins/workspace/myfirst_maven_project/nightrepo/com.vogella.build.maven.java/pom.xml clean package
